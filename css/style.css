@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --main-bg-color: rgba(28, 164, 141, 0.651);
+    --secundari-bg-color: #4d4848;
+    --font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header>nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header>nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+header>nav>ul>li{
+    float: right;
+}
+
+header>nav>ul>li>a, header>nav>p{
+    display: block;
+    color: var(--secundari-bg-color);
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+header>nav>p{
+    font-size: 18pt;
+}
+
+header>nav>p>span{
+    color: rgb(32, 137, 178);
+}
+
+main>article>img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.texto-banner{
+    border: 1px solid #ffffff;
+    background-color: var(--main-bg-color);
+    color: #ffffff;
+    font-family: var(--font-family);
+    text-align: center;
+    width: 470px;
+    position: absolute;
+    padding: 20px;
+    margin: auto;
+    top: 180px;
+    left: 400px;
+}
+
+.texto-banner>h1{
+    font-size: 32pt;
+    padding: 25px;
+}
+
+.texto-banner>h2{
+    font-weight: 600;
+}
+
+#quartos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#quartos>h2{
+    color: #4d4848;
+    font-size: 24pt;
+    font-family: var(--font-family);
+    font-weight: 400;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 40px;
+}
+
+#quartos>p{
+    font-family: var(--font-family);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.img-quarto>figure{
+    margin-left: 30px;
+}
+
+figcaption{
+    color: var(--secundari-bg-color);
+    font-family: var(--font-family);
+    text-align: center;
+    padding-top: 8px;
+}
+
+hr{
+    background-color: var(--main-bg-color);
+    height: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.img-quarto{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+figure>img{
+    width: 350px;
+    height: 200px;
+}
+
+#rota{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#rota>h2{
+    color: var(--secundari-bg-color);
+    font-family: var(--font-family);
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+#rota>p{
+    color: var(--secundari-bg-color);
+    font-family: var(--font-family);
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+
+
+#sobre>h2{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color: var(--secundari-bg-color);
+    font-family: var(--font-family);
+}
+
+#sobre>.cards1, #sobre>.cards2{
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card{
+    float: left;
+    font-family: var(--font-family);
+    width: 500px;
+    height: 180px;
+    margin: 40px;
+}
+
+.card-title{
+    align-items: flex-start;
+    flex: 1 auto;
+    padding: 40px 0 10px 10px;
+}
+
+.card-subtitle{
+    align-self: flex-start;
+    padding: 10px;
+    margin-right: auto;
+}
+
+.card-img{
+    float: right;
+    width: 120px;
+    height: 150px;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: #49997c;
+    font-family: var(--font-family);
+    width: 100%;
+    height: 200px;
+}
+
+.footer-principal{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.title-footer{
+    float: left;
+    width: 15%;
+    font-weight: 700;
+}
+
+.img-footer{
+    width: 32px;
+}
+
+.footer-1>a, .footer-2>a, .footer-3>a{
+    text-decoration: none;
+    color: #ffffff;
+    float: right;
+    width: 80%;
+}   
+
+.footer>hr{
+    background-color: #3e8d70;
+    height: 1px;
+    width: 82%;
+    margin: auto;
+}
+
+.copy{
+    color: #ffffff;
+    font-size: 15pt;
+    text-align: center;
+    padding-top: 20px;
+}
